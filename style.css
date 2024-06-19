@@ -6,12 +6,15 @@ body {
 }
 
 nav {
-    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     transition: all 0.5s ease;
-    
+    z-index: 1000;
 }
 
 nav a {
@@ -25,6 +28,12 @@ section {
     height: 100vh;
     padding: 50px;
     box-sizing: border-box;
+}
+
+#contact {
+    height: 50vh;
+    background-color: #333;
+    color: #fff;
 }
 
 .parallax {
@@ -75,10 +84,4 @@ section {
     font-size: 1.5em;
     text-transform: uppercase;
     color: #333;
-}
-
-#contact {
-    height: 50vh;
-    background-color: #333;
-    color: #fff;
 }
