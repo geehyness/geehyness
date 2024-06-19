@@ -28,12 +28,14 @@ section {
     height: 100vh;
     padding: 50px;
     box-sizing: border-box;
+    overflow: auto; /* Add this line */
 }
 
 #contact {
     height: 50vh;
     background-color: #333;
     color: #fff;
+    overflow: auto;
 }
 
 .parallax {
