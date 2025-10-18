@@ -1,4 +1,4 @@
-# ☕ Yuki (geehyness)
+# ☕ Coffee and Code ⌨️
 
 **Building elegant code & strong habits daily**  
 *"Consistency brews excellence in code and life"*
